@@ -11,14 +11,25 @@ body{
 header nav{
   display: flex;
   justify-content: center;
-  gap: 350px;
+  gap: 400px;
   font-size: 34px;
   margin-bottom: 50px;
   margin-top: 50px;
 }
 
-header a:hover{
-  border: 2px solid black
+#MyProfile{
+   border: 1px solid black;
+   padding: 5px 20px;
+}
+
+header nav a,
+header nav a:link,
+header nav a:visited,
+header nav a:hover,
+header nav a:active {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 #MAIN{
